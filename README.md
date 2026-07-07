@@ -1,8 +1,8 @@
 # Microsoft Entra ID Device Notes
 
-# I  started to study for md-102 certification exam yesterday. I will keep updating this readme file as long as I'm preparing for exam.
-# The PowerShell repository I made yesterday is also useful for md-102 exam.
-# Should you have any question, feel free to contact me pouya.ecn@gmail.com
+### I  started to study for md-102 certification exam yesterday. I will keep updating this readme file as long as I'm preparing for exam.
+### The PowerShell repository I made yesterday is also useful for md-102 exam.
+### Should you have any question, feel free to contact me pouya.ecn@gmail.com
 
 ## Why do we add devices to Microsoft Entra ID?
 
