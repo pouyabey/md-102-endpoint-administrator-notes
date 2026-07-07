@@ -209,16 +209,3 @@ Then the employee signs in with a work account, and the device can automatically
 - Receive company policies
 - Install required apps
 
-## Summary
-
-Microsoft Entra Registered is mostly for personal/BYOD devices.
-
-Microsoft Entra Joined is mostly for company-owned Windows devices.
-
-Entra ID manages identity and access.
-
-Intune manages devices, apps, and compliance.
-
-Conditional Access uses Entra ID policies and can use Intune compliance status to decide whether access should be allowed or blocked.
-
-Windows Autopilot helps companies deploy many Windows devices automatically.
