@@ -209,3 +209,249 @@ Then the employee signs in with a work account, and the device can automatically
 - Receive company policies
 - Install required apps
 
+# Hybrid-Joined Devices and Personal Device Registration in Microsoft Entra ID
+
+## Hybrid-Joined Devices
+
+Hybrid-Joined devices are used when a company has both:
+
+- On-premises Active Directory Domain Services
+- Microsoft Entra ID
+
+This is usually a company-owned device scenario, not BYOD.
+
+In this model, the device is joined to the local/on-premises Active Directory domain, and it is also registered or joined with Microsoft Entra ID.
+
+## Key Point
+
+Microsoft’s long-term direction is to move more identity and device management from on-premises environments into Microsoft Entra ID and cloud-based management.
+
+Hybrid Join is useful for companies that still depend on on-premises Active Directory but also want cloud identity features from Microsoft Entra ID.
+
+## Example Scenario
+
+A company has many Windows devices that are already joined to an on-premises AD domain.
+
+Instead of moving everything immediately to cloud-only Entra ID Joined devices, the company can use Hybrid Join.
+
+This allows the device to stay connected to the local AD environment while also appearing in Microsoft Entra ID.
+
+## Joining a New Device During Windows Setup
+
+When setting up a new Windows device, the user may reach the Out-of-Box Experience screen.
+
+At this stage, if the user signs in with a work or school account, the device can be connected to the organization.
+
+![Windows OOBE Country Selection](screenshots/windows-oobe-country-selection.png)
+![Windows OOBE Country Selection](screenshots/windows-oobe-country-selection-02.png)
+
+On the next screen, Windows asks the user to sign in with a work or school account.
+
+![Windows Work or School Sign-in](screenshots/windows-work-or-school-signin.png)
+
+If the user enters an organizational Microsoft Entra ID account, the device can become connected to the organization.
+
+Depending on the setup and company configuration, this can result in different join types, such as:
+
+- Microsoft Entra registered
+- Microsoft Entra joined
+- Microsoft Entra hybrid joined
+
+## Microsoft Entra ID Admin Center
+
+Inside Microsoft Entra ID, admins can manage and view many identity-related objects, such as:
+
+- Users
+- Groups
+- External identities
+- Roles and administrators
+- Administrative units
+- Enterprise applications
+- Devices
+- App registrations
+- Licenses
+- Microsoft Entra Connect
+- Custom domain names
+
+![Microsoft Entra ID Admin Center Menu](screenshots/entra-id-admin-center-menu.png)
+
+This area gives administrators a central place to manage cloud identity, access, users, groups, applications, and devices.
+
+## Devices Section in Microsoft Entra ID
+
+In Microsoft Entra ID, the Devices section shows useful information about each device.
+
+For example, an admin can see:
+
+- Device name
+- Whether the device is enabled or disabled
+- Operating system
+- OS version
+- Join type
+- Owner
+- MDM status
+- Compliance status
+- Registration status
+
+![Microsoft Entra ID Devices Overview](screenshots/entra-id-devices-overview.png)
+
+This information is useful for IT support because it helps identify how a device is connected to the organization and whether it is managed properly.
+
+## Important Device Fields
+
+### Enabled
+
+Shows whether the device account is enabled or disabled in Microsoft Entra ID.
+
+If a device is disabled, it may not be able to access company resources.
+
+### OS
+
+Shows the operating system of the device.
+
+Example:
+
+- Windows
+- macOS
+- iOS
+- Android
+
+### Version
+
+Shows the operating system version installed on the device.
+
+Example:
+
+- Windows 10.0.22621.2134
+- Windows 10.0.19044.2846
+
+### Join Type
+
+Shows how the device is connected to Microsoft Entra ID.
+
+Common join types:
+
+- Microsoft Entra registered
+- Microsoft Entra joined
+- Microsoft Entra hybrid joined
+
+### Owner
+
+Shows the user who owns or registered the device.
+
+### MDM
+
+Shows whether the device is managed by Mobile Device Management, such as Microsoft Intune.
+
+If MDM shows None, the device is not managed by Intune.
+
+### Compliant
+
+Shows whether the device meets the company’s compliance policies.
+
+This usually depends on Intune compliance policies.
+
+## How to Register a Personal Device to Microsoft Entra ID
+
+For a personal device, the device is usually not fully joined to the company.
+
+Instead, it is registered.
+
+This is common in BYOD scenarios.
+
+BYOD means Bring Your Own Device.
+
+Example:
+
+An employee uses a personal laptop but wants to access company resources such as:
+
+- Microsoft 365
+- Outlook
+- Teams
+- SharePoint
+- OneDrive
+
+In this case, the device can be Microsoft Entra registered.
+
+## Steps to Register a Personal Windows Device
+
+Go to:
+
+Settings > Accounts > Access work or school
+
+Then click:
+
+Connect
+
+![Windows Access Work or School Settings](screenshots/windows-access-work-or-school-settings.png)
+
+After that, enter the work or school email address.
+
+![Add Work or School Account](screenshots/add-work-or-school-account.png)
+
+After signing in, the device becomes registered with Microsoft Entra ID.
+
+## Important Note
+
+Microsoft Entra registered gives the company less control over the device compared to Microsoft Entra joined.
+
+This is why it is commonly used for personal/BYOD devices.
+
+For company-owned devices, Microsoft Entra joined or Hybrid joined is usually more appropriate.
+
+## Comparing Join Types
+
+### Microsoft Entra Registered
+
+Usually used for:
+
+- Personal devices
+- BYOD scenarios
+
+Main idea:
+
+The user adds a work or school account to the device.
+
+The device is known to Microsoft Entra ID, but the company does not fully own or control the device.
+
+### Microsoft Entra Joined
+
+Usually used for:
+
+- Company-owned devices
+- Cloud-first environments
+
+Main idea:
+
+The device is joined directly to Microsoft Entra ID.
+
+The user signs in to Windows using a work or school account.
+
+### Microsoft Entra Hybrid Joined
+
+Usually used for:
+
+- Company-owned devices
+- Organizations that still use on-premises Active Directory
+
+Main idea:
+
+The device is joined to the on-premises AD domain and also connected to Microsoft Entra ID.
+
+## Device Join Type in Entra ID
+
+In the Devices section, the Join type column shows how each device is connected.
+
+![Microsoft Entra Device Join Type Column](screenshots/entra-device-join-type-column.png)
+
+Examples of join types shown in the portal:
+
+- Microsoft Entra hybrid joined
+- Microsoft Entra registered
+- Microsoft Entra joined
+
+This is useful for troubleshooting because IT support can quickly understand whether the device is personal, cloud-joined, or hybrid-connected.
+
+
+
+
