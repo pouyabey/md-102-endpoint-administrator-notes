@@ -4,6 +4,9 @@
 ### The PowerShell repository I made yesterday is also useful for md-102 exam.
 ### Should you have any question, feel free to contact me pouya.ecn@gmail.com
 
+---
+
+
 ## Why do we add devices to Microsoft Entra ID?
 
 Devices are added or registered in Microsoft Entra ID so organizations can control and secure access to company resources.
