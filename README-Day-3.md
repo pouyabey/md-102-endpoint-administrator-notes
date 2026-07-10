@@ -154,7 +154,7 @@ The administrator can then manage it by deploying:
 
 ## Screenshot
 
-![Microsoft Intune Device Onboarding Overview](screenshots/intune-device-onboarding-overview.png)
+![Microsoft Intune Device Onboarding Overview](screenshots/Day3-01.png)
 
 ## Additional Day 3 Notes
 
