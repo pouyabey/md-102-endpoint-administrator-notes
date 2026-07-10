@@ -104,9 +104,9 @@ Owner = the person responsible for managing the group.
 
 Screenshot links:
 
-![Screenshot 6](images/screenshot-6.png)
-![Screenshot 7](images/screenshot-7.png)
-![Screenshot 8](images/screenshot-8.png)
+![Screenshot 6](screenshots/screenshot-6.png)
+![Screenshot 7](screenshots/screenshot-7.png)
+![Screenshot 8](screenshots/screenshot-8.png)
 
 ---
 
