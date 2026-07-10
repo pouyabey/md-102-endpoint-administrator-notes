@@ -158,4 +158,4 @@ The administrator can then manage it by deploying:
 
 ## Additional Day 3 Notes
 
-More notes about Intune application management, configuration policies, compliance, and device security will be added below.
+More notes about Intune application management, configuration policies, compliance, and device security will be added below..
