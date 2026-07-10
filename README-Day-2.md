@@ -219,7 +219,7 @@ If you are not sure what a property means, click Learn More on the page to read 
 
 Screenshot link:
 
-![Screenshot 9](images/screenshot-9.png)
+![Screenshot 9](screenshots/screenshot-9.png)
 
 ---
 
@@ -275,7 +275,7 @@ After adding the rule, click Save.
 
 Screenshot link:
 
-![Screenshot 10](images/screenshot-10.png)
+![Screenshot 10](screenshots/screenshot-10.png)
 
 ---
 
