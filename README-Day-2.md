@@ -308,9 +308,9 @@ The Members page shows all devices that match the dynamic query and became membe
 
 Screenshot links:
 
-![Screenshot 11](images/screenshot-11.png)
-![Screenshot 12](images/screenshot-12.png)
-![Screenshot 13](images/screenshot-13.png)
+![Screenshot 11](screenshots/screenshot-11.png)
+![Screenshot 12](screenshots/screenshot-12.png)
+![Screenshot 13](screenshots/screenshot-13.png)
 
 ---
 
