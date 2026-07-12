@@ -173,7 +173,6 @@ Main capabilities include:
 - Removing company data from managed applications without wiping the entire device
 - Monitoring application installation status and deployment failures
 
-![Intune Apps Overview](screenshots/intune-apps-overview.png)
 
 ---
 
@@ -194,7 +193,6 @@ Main capabilities include:
 
 Intune configuration profiles are somewhat similar to traditional Group Policy. However, Intune is cloud-based and is not an exact replacement for every Group Policy setting.
 
-![Intune Devices Overview](screenshots/intune-devices-overview.png)
 
 ---
 
@@ -254,10 +252,12 @@ Microsoft frequently changes product names, so it is useful to recognize both th
 
 To configure device enrollment, go to:
 
+```
 Intune admin center
 └── Devices
     └── Device onboarding
         └── Enrollment
+```
 
 Enrollment options are organized by operating system because Windows, Apple, and Android devices use different enrollment methods.
 
@@ -331,7 +331,6 @@ CNAME is not specifically based on whether the organization uses an on-premises 
 
 Its importance mainly depends on the enrollment method.
 
-![Windows Enrollment Options](screenshots/windows-enrollment-options.png)
 
 ---
 
@@ -410,7 +409,6 @@ The general process is:
 
 After completing these steps, supported Apple devices can enroll in Intune.
 
-![Apple MDM Push Certificate](screenshots/apple-mdm-push-certificate.png)
 
 ---
 
@@ -436,7 +434,6 @@ After the connection is complete, administrators can:
 - Apply compliance and security policies
 - Configure personally owned and corporate-owned enrollment methods
 
-![Managed Google Play Connection](screenshots/android-managed-google-play.png)
 
 ---
 
@@ -450,11 +447,13 @@ The default Intune restriction is commonly set to five devices, but administrato
 
 To view or create a device limit restriction, go to:
 
+```
 Devices
 └── Device onboarding
     └── Enrollment
         └── Device platform restrictions
             └── Device limit restrictions
+```
 
 Administrators can create multiple restriction policies and assign them to different user groups.
 
@@ -474,11 +473,6 @@ For example:
 
 The restriction must be assigned to a user group before it applies.
 
-![Enrollment Device Limit Restrictions](screenshots/enrollment-device-limit-restrictions.png)
-
-![Create Device Limit Restriction](screenshots/create-device-limit-restriction.png)
-
-![Assign Device Limit Restriction](screenshots/assign-device-limit-restriction.png)
 
 ---
 
