@@ -37,7 +37,7 @@ Windows Configuration Designer can be installed from the Microsoft Store.
 
 ![Create Provisioning Package](screenshots/create-provisioning-package.png)
 
-Important:
+###### Important:
 
 A provisioning package makes bulk setup faster, but the package normally still needs to be applied to each device.
 
