@@ -62,7 +62,7 @@ A device name can also include the serial number.
 
 After the configuration is completed, a provisioning package is created. The package can be copied to a USB drive and run on new devices.
 
-![Windows provisioning package](Screenshots/day-5-01.png)
+![Windows provisioning package](screenshots/day-5-01.png)
 
 
 # Bulk Enrollment for Apple Devices
@@ -78,7 +78,7 @@ Apple Configurator can be used to prepare and enroll Apple devices manually.
 
 Devices purchased through Apple or an authorized reseller are usually added to Apple Business Manager and assigned to Intune.
 
-![Apple Configurator enrollment](Screenshots/day-5-02.png)
+![Apple Configurator enrollment](screenshots/day-5-02.png)
 
 
 ## User Affinity
@@ -93,7 +93,7 @@ Example:
 
 A shared iPad used by employees for scanning products.
 
-![Apple user affinity](Screenshots/day-5-03.png)
+![Apple user affinity](screenshots/day-5-03.png)
 
 
 ## Setup Assistant
@@ -104,7 +104,7 @@ The Apple Setup Assistant guides the user through the enrollment process.
 
 For some enrollment methods, the user may need to install the Company Portal app.
 
-![Apple Setup Assistant](Screenshots/day-5-04.png)
+![Apple Setup Assistant](screenshots/day-5-04.png)
 
 
 ## Apple Business Manager
@@ -143,7 +143,7 @@ Dedicated Device
 Corporate-Owned Device with Work Profile
 → One user, work and personal use are separated.
 
-![Android Zero-touch enrollment](Screenshots/day-5-05.png)
+![Android Zero-touch enrollment](screenshots/day-5-05.png)
 
 
 # Policy Sets
@@ -157,7 +157,7 @@ Example:
 A new Sales employee joins the Sales group
 → The employee receives the Sales apps, policies, Wi-Fi, VPN, and security settings.
 
-![Intune Policy Sets](Screenshots/day-5-06.png)
+![Intune Policy Sets](screenshots/day-5-06.png)
 
 
 # Roles and RBAC
